@@ -1,6 +1,6 @@
 Package: itscalledsoccer
 Title: American Soccer Analysis API Client
-Version: 0.1.0
+Version: 0.2.0
 Authors@R: 
     c(
         person(
@@ -31,9 +31,9 @@ Imports: dplyr (>= 1.0.0), httpcache (>= 1.2.0), glue (>= 1.4.1), httr
 Suggests: covr, testthat (>= 3.0.0)
 Config/testthat/edition: 3
 NeedsCompilation: no
-Packaged: 2022-02-07 23:35:11 UTC; tylerrichardett
+Packaged: 2022-04-14 01:47:24 UTC; tylerrichardett
 Author: Tyler Richardett [aut, cre],
   American Soccer Analysis [cph]
 Maintainer: Tyler Richardett <tyler.richardett@gmail.com>
 Repository: CRAN
-Date/Publication: 2022-02-08 16:30:02 UTC
+Date/Publication: 2022-04-14 10:12:33 UTC
