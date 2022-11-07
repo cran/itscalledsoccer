@@ -25,13 +25,13 @@
     }
 
     if (!missing(ids)) {
-        if (!is.null(ids) & (class(ids) != "character" | length(ids) < 1)) {
+        if (!is.null(ids) & (!methods::is(ids, "character") | length(ids) < 1)) {
             stop("IDs must be passed as a vector of characters with length >= 1.")
         }
     }
 
     if (!missing(names)) {
-        if (!is.null(names) & (class(names) != "character" | length(names) < 1)) {
+        if (!is.null(names) & (!methods::is(names, "character") | length(names) < 1)) {
             stop("Names must be passed as a vector of characters with length >= 1.")
         }
     }
@@ -65,6 +65,11 @@
             magrittr::extract2("message")
 
         error_message <- glue::glue("HTTP 400: {error_message}")
+        stop(error_message)
+    } else if (r$status_code %in% c(404, 502, 503)) {
+        error_message <- glue::glue(
+            "HTTP {r$status_code}: This resource is temporarily unavailable, or it has been removed. If you believe you are receiving this message in error, please reach out to the maintainer(s). Otherwise, please try again shortly."
+        )
         stop(error_message)
     } else if (r$status_code != 200) {
         httr::stop_for_status(r)
