@@ -1,3 +1,10 @@
+# itscalledsoccer 0.2.4
+
+### Bug fixes 🐛
+
+- Fixing conditional within main class initialization that was created to prevent any API calls on CRAN.
+
+
 # itscalledsoccer 0.2.3
 
 ### What's new ✨
