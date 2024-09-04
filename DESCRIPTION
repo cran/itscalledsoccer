@@ -1,6 +1,6 @@
 Package: itscalledsoccer
 Title: American Soccer Analysis API Client
-Version: 0.2.4
+Version: 0.3.0
 Authors@R: 
     c(
         person(
@@ -22,7 +22,7 @@ URL: https://github.com/American-Soccer-Analysis/itscalledsoccer-r,
         https://american-soccer-analysis.github.io/itscalledsoccer-r/
 BugReports: https://github.com/American-Soccer-Analysis/itscalledsoccer-r/issues
 Encoding: UTF-8
-RoxygenNote: 7.2.1
+RoxygenNote: 7.3.2
 Depends: R (>= 3.2.0)
 Imports: dplyr (>= 1.0.0), httpcache (>= 1.2.0), glue (>= 1.4.1), httr
         (>= 1.4.2), jsonlite (>= 1.7.0), magrittr (>= 2.0.0), R6 (>=
@@ -31,9 +31,9 @@ Imports: dplyr (>= 1.0.0), httpcache (>= 1.2.0), glue (>= 1.4.1), httr
 Suggests: covr, testthat (>= 3.0.0)
 Config/testthat/edition: 3
 NeedsCompilation: no
-Packaged: 2023-10-08 03:36:10 UTC; tylerrichardett
+Packaged: 2024-09-04 19:58:34 UTC; tylerrichardett
 Author: Tyler Richardett [aut, cre],
   American Soccer Analysis [cph]
 Maintainer: Tyler Richardett <tyler.richardett@gmail.com>
 Repository: CRAN
-Date/Publication: 2023-10-08 03:50:02 UTC
+Date/Publication: 2024-09-04 22:20:06 UTC
