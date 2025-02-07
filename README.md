@@ -132,4 +132,3 @@ asa_goals_added <- asa_client$get_goalkeeper_goals_added(
     split_by_game = TRUE
 )
 ```
-
