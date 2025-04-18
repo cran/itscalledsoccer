@@ -1,12 +1,12 @@
-0e1f4fdaa933b2e2c8dc5008044cc282 *DESCRIPTION
+2032bbc9c387a21dffe45e4e712e602e *DESCRIPTION
 c7780feb7c074da61a3728e0c3da7fa6 *LICENSE
 6be1c6ab6d054cc04d430bfc2aca4fa2 *NAMESPACE
-b18e322b96a8ccfc0d02a4d142f0514c *NEWS.md
+fd2006fa5ef377cf58319cc038998513 *NEWS.md
 ab8275bd73f90521556e3f01a9f6ed2d *R/client.R
 8898c366ab29fcd45ee6f43a917b18ed *R/entities.R
 98c89c701173415a39d2adf05764bca1 *R/imports.R
 d0817f80c0f80b326d273b5212ee9aeb *R/stats.R
-15adf2f7f9a738cbcefe4b9e0ffea95f *R/utils.R
+48c5e74e042e45a079f6ae94ff2e638b *R/utils.R
 d6de1f8b5209826ffc76bd1fae44affc *README.md
 66b1ec68e2fbdea2d8bc159f7391bfa4 *man/AmericanSoccerAnalysis.Rd
 5c24cb78c1d775f7a6aa8c7849594e38 *man/figures/logo.png
